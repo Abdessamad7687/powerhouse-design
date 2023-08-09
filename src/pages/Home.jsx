@@ -3,7 +3,10 @@ import PhotoList from '../components/PhotoList'
 
 const Home = () => {
   return (
-    <PhotoList />
+    <div style={{ margin: "50px"}}>
+       <PhotoList />
+    </div>
+   
   )
 }
 
